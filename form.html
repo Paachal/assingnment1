@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALT School Africa Registration Form</title>
+  <!-- Link your CSS file -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="index.html">About Me</a></li>
+      <li><a href="#registration-form">Registration Form</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="registration-form">
+    <h1>ALT School Africa Registration Form</h1>
+    <p>The registration form at ALT School Africa embodies a seamless gateway into an enriching educational journey. It's a well-crafted digital interface designed to gather essential information and initiate one's enrollment process.</p>
+
+    <form action="submit_registration.php" method="POST">
+      <label for="firstname">First Name:</label>
+      <input type="text" id="firstname" name="firstname" required>
+
+      <label for="lastname">Last Name:</label>
+      <input type="text" id="lastname" name="lastname" required>
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="education">Educational Level:</label>
+      <select id="education" name="education">
+        <option value="high-school">High School</option>
+        <option value="college">College</option>
+        <option value="bachelor">Bachelor's Degree</option>
+        <option value="master">Master's Degree</option>
+        <option value="phd">Ph.D.</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="country">Country:</label>
+      <input type="text" id="country" name="country" required>
+
+      <label for="city">State/City of Residence:</label>
+      <input type="text" id="city" name="city" required>
+
+      <label for="employment">Employment Status:</label>
+      <input type="text" id="employment" name="employment" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="school">Choose School:</label>
+      <input type="text" id="school" name="school" required>
+
+      <label for="study">Choose School of Study:</label>
+      <input type="text" id="study" name="study" required>
+
+      <label for="hear-about">How did you hear about us:</label>
+      <select id="hear-about" name="hear-about">
+        <option value="twitter">Twitter</option>
+        <option value="facebook">Facebook</option>
+        <option value="linkedin">LinkedIn</option>
+        <option value="youtube">YouTube</option>
+        <option value="friend">Friend</option>
+        <option value="whatsapp">WhatsApp</option>
+        <option value="instagram">Instagram</option>
+        <option value="billboard">Billboard</option>
+      </select>
+
+      <label for="discount-code">Scholarship/Discount Code:</label>
+      <input type="text" id="discount-code" name="discount-code">
+
+      
+    </form>
+    
+    <p>By clicking continue, I agree to the Terms of Use and acknowledge that I have read the Privacy Policy.</p>
+    <button type="submit">Submit</button>
+  </section>
+</main>
+
+<!-- Other content -->
+
+</body>
+</html>
